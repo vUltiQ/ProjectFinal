@@ -8,7 +8,7 @@ public class Boundries : MonoBehaviour
     public static float leftSide = -3.5f;
     public static float rightSide = 3.5f;
 
-    // Variables to store the internal left and right boundaries (non-static)
+    // Variables to store the internal left and right boundaries 
     public float left;
     public float right;
 

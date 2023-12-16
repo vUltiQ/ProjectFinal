@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class ObstacleCollision : MonoBehaviour
 {    
-    // References to player-related objects
     public GameObject thePlayer;
     public GameObject charModel;
 
