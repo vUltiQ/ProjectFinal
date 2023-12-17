@@ -17,10 +17,8 @@ public class ObstacleCollision : MonoBehaviour
     // Audio source for collision sound
     public AudioSource CollisionSFX;
 
-    // Called when another collider enters the trigger collider attached to this object
     void OnTriggerEnter(Collider other)
     {	
-        // Disable the box collider of the obstacle to prevent multiple collisions
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
 
         // Disable PlayerMovement script to stop player movement

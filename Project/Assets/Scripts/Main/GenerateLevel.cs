@@ -15,7 +15,6 @@ public class GenerateLevel : MonoBehaviour
     // Variable to store the generated section number
     public int sectionNum;
 
-    // Update is called once per frame
     void Update()
     {
         // Check if a section is not currently being created
