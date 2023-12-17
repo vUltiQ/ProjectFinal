@@ -10,6 +10,6 @@ public class CustomSceneManager : MonoBehaviour
 
     public void CodeRepo()
     {
-        Application.OpenURL("https://github.com/vUltiQ/Project");
+        Application.OpenURL("https://github.com/vUltiQ/ProjectFinal");
     }
 }
